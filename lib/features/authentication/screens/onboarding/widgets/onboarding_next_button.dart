@@ -26,7 +26,6 @@ class OnBoardingNextButton extends StatelessWidget {
         ),
         child: Icon(
           Iconsax.arrow_right_3, 
-          // color: dark ? Colors.black : Colors.white,
         ),
       ),
     );

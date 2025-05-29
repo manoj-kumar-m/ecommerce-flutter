@@ -1,3 +1,4 @@
+import 'package:ecommerce/features/authentication/screens/login/login.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 
@@ -23,7 +24,7 @@ class OnBoardingController extends GetxController {
       int page = currentPageIndex.value + 1;
       pageController.jumpToPage(page);
     } else {
-      // Get.to(LoginScreen());
+      Get.offAll(const LoginScreen());
     }
   }
 
